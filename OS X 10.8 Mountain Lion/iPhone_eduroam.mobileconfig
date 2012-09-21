@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>EAPClientConfiguration</key>
+			<dict>
+				<key>AcceptEAPTypes</key>
+				<array>
+					<integer>21</integer>
+				</array>
+				<key>EAPFASTProvisionPAC</key>
+				<false/>
+				<key>EAPFASTProvisionPACAnonymously</key>
+				<false/>
+				<key>EAPFASTUsePAC</key>
+				<false/>
+				<key>TLSAllowTrustExceptions</key>
+				<true/>
+				<key>TTLSInnerAuthentication</key>
+				<string>MSCHAPv2</string>
+			</dict>
+			<key>EncryptionType</key>
+			<string>WPA</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>PayloadDescription</key>
+			<string>Configures wireless connectivity settings.</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi (eduroam)</string>
+			<key>PayloadIdentifier</key>
+			<string>edu.ub.eduroam-config.wifi</string>
+			<key>PayloadOrganization</key>
+			<string>Universitat de Barcelona</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>6EF7DDD5-EBC5-4D8A-A50B-21BF70F267AF</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SSID_STR</key>
+			<string>eduroam</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configuració Eduroam per a iPhone</string>
+	<key>PayloadDisplayName</key>
+	<string>iPhone eduroam</string>
+	<key>PayloadIdentifier</key>
+	<string>edu.ub.eduroam-config</string>
+	<key>PayloadOrganization</key>
+	<string>Universitat de Barcelona</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>A3282664-2A4E-44A6-AE09-E42DE2AAB4A7</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
